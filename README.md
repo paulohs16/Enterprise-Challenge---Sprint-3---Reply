@@ -1,5 +1,3 @@
-# Enterprise-Challenge---Sprint-3---Reply
-
 # 🗄️ Projeto FIAP – Enterprise Challenge - Sprint 3 - Reply
 
 [![Grupo](https://img.shields.io/badge/Grupo-56-green)]()  
@@ -66,7 +64,8 @@ O objetivo foi transformar as leituras do sensor **DHT22** (coletadas pelo **ESP
   - **Alerta** → levemente fora da faixa.  
   - **Crítico** → ≥30 °C, ≤16 °C, umidade ≤30 % ou ≥70 %.  
 
-### 🔹 Dataset    
+### 🔹 Dataset  
+- Arquivo: `readings_for_ml.csv`  
 - Estrutura compatível com o banco (`sensor`, `recorded_at`, `temperature_c`, `humidity_pct`, `status`).  
 - ~1800 linhas (600 por sensor).  
 
