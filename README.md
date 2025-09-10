@@ -85,16 +85,16 @@ O objetivo foi transformar as leituras do sensor **DHT22** (coletadas pelo **ESP
 ```
 enterprise-challenge-reply/
 ├── docs/
-│   ├── der.png                       # DER (draw.io)
-│   ├── confusion_matrix.png          # Matriz de confusão
-│   ├── tree.png                      # Árvore de decisão
-│   ├── distribuicao.png              # Gráfico de distribuição
-│   └── scatter.png                   # Scatter plot Temp x Umidade
-├── schema_oracle.sql                 # Estrutura do banco
-├── test_data_oracle.sql              # Inserts de teste
-├── generate_data_oracle.sql          # Geração de massa de dados
-├── readings_for_ml.csv               # Dataset para ML
-├── notebook_ml.ipynb                 # Notebook de Machine Learning
+│   ├── DER - Sprint 3                # DER (draw.io)
+│   ├── Matriz de confusão            # Matriz de confusão
+│   ├── Árvore de decisão             # Árvore de decisão
+│   ├── Gráfico de distribuição       # Gráfico de distribuição
+│   └── Gráfico de dispersão          # Scatter plot Temp x Umidade
+├── 01 - Banco_oracle.sql             # Estrutura do banco
+├── 02 - Simulação_de_dados.sql       # Inserts de teste
+├── 03 - Inserts_de_teste.sql         # Geração de dados para teste
+├── 04 - Dataset_ML_leituras.csv      # Dataset para ML
+├── 05 - Notebook_ml.ipynb            # Notebook de Machine Learning
 └── README.md                         # Documentação principal
 ```  
 
